@@ -140,7 +140,7 @@ my_alien_group = pygame.sprite.Group()
 my_game = Game(my_player, my_alien_group, my_player_bullet_group, my_alien_bullet_group)
 # TODO: call the my_game.start_new_round() function with no arguments.
 my_game.group.add(my_game)
-g
+
 #The main game loop
 running = True
 while running:
